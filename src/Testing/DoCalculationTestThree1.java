@@ -2,7 +2,7 @@ package Testing;
 import static org.junit.Assert.*;
 import org.junit.Test;
 import Program.FrameUI;
-public class DoCalculationTestThree {
+public class DoCalculationTestThree1 {
 	@Test
 	public void testCalculation() {
 	FrameUI frame = new FrameUI("Страховой калькулятор", 820, 780); /*Создани экземпляра класса FrameUI*/
