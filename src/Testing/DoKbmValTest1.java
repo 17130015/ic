@@ -1,9 +1,8 @@
 package Testing;
-import static org.junit.Assert.*;
-import org.junit.Test;
+import junit.framework.TestCase;
 import Program.FrameUI;
-public class DoKbmValTest1 {
-	@Test
+public class DoKbmValTest1 extends TestCase{
+	
 	public void testKbmVal() {
 		FrameUI frame = new FrameUI("Страховой калькулятор", 820, 780); /*Создани экземпляра класса FrameUI*/
 		assertEquals(Double.toString(frame.KbmVal(0)),"2.45"); /*Проверка соответствия ожидаемого и реального результата*/
